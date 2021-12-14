@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  managment-app:
+    image: managment-app:latest
+    container_name: managment-app
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"
